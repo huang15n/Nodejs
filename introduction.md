@@ -156,19 +156,28 @@ console.log(os.cpus()); // Affiche les informations sur les processeurs du syst√
 ##### Exemple d'importation avec **CommonJS** en Node.js :
 
 ```js
-const fs = require("fs");
-
-const data = fs.readFileSync("example.txt", "utf8");
-console.log(data);
+const os = require("os");
+console.log(os.type());
+console.log(os.homedir());
+console.log(os.version());
+const path = require("path");
+console.log(path.dirname(__filename));
+console.log(path.basename(__filename));
+console.log(path.extname(__filename));
 ```
 
 ##### Exemple d'importation avec **ES6 Modules** :
 
 ```js
-import fs from "fs";
+import os from "os";
+import path from "path";
+console.log(os.type());
+console.log(os.homedir());
+console.log(os.version());
 
-const data = fs.readFileSync("example.txt", "utf8");
-console.log(data);
+console.log(path.dirname(__filename));
+console.log(path.basename(__filename));
+console.log(path.extname(__filename));
 ```
 
 ---
