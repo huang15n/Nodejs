@@ -40,5 +40,3 @@ Ce dépôt contient des notes de formation sur Node.js, un environnement d'exéc
 En maîtrisant Node.js, vous serez mieux équipé pour comprendre et utiliser Express.js de manière plus efficace et intuitive.
 
 ---
-
-Cela vous permettra de structurer clairement votre README et d'expliquer l'importance de Node.js dans le contexte d'Express.js.
